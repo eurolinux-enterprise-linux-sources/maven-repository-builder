@@ -3,7 +3,7 @@
 Name:           maven-repository-builder
 Version:        1.0
 # See http://fedoraproject.org/wiki/Packaging:NamingGuidelines#Package_Versioning
-Release:        0.3.alpha2%{?dist}
+Release:        0.5.alpha2%{?dist}
 # Maven-shared defines maven-repository-builder version as 1.0
 Epoch:          1
 Summary:        Maven repository builder
@@ -72,6 +72,13 @@ cp %{SOURCE1} LICENSE.txt
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1:1.0-0.5.alpha2
+- Mass rebuild 2013-12-27
+
+* Fri Jun 28 2013 Mikolaj Izdebski <mizdebsk@redhat.com> - 1:1.0-0.4.alpha2
+- Rebuild to regenerate API documentation
+- Resolves: CVE-2013-1571
+
 * Tue Feb 19 2013 Tomas Radej <tradej@redhat.com> - 1:1.0-0.3.alpha2
 - Added BR on maven-shared
 
